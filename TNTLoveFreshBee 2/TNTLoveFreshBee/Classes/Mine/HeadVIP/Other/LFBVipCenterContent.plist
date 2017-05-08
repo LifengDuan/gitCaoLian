@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>vip_001</string>
+		<key>name</key>
+		<string>成长值</string>
+		<key>content</key>
+		<string>会员等级有效期为1年,1年后扣减相应等级成长值,剩余成长值重新计算会员级别。</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>vip_002</string>
+		<key>name</key>
+		<string>成长攻略</string>
+		<key>content</key>
+		<string>会员等级越高获得的积分越高.
+1、注册会员: 0.5倍积分
+2、普通会员:  1 倍积分
+3、白银会员: 1.5倍积分
+4、黄金会员:  2 倍积分
+5、钻石会员:  3 倍积分</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>vip_003</string>
+		<key>name</key>
+		<string>特权</string>
+		<key>content</key>
+		<string>1、注册会员:   30 &gt; 成长值 &gt;= 0;
+2、普通会员: 199 &gt; 成长值 &gt;= 30;
+3、白银会员: 499 &gt; 成长值 &gt;= 199;
+4、黄金会员: 999 &gt; 成长值 &gt;= 499;
+5、钻石会员:            成长值 &gt;= 999;</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>vip_004</string>
+		<key>name</key>
+		<string>会员等级说明</string>
+		<key>content</key>
+		<string>1、购买精选商品实付金额1:1转化为成长值(不包含优惠券等抵扣部分);
+2、在&quot;天津、西安、成都、南京、佛山&quot;下单,完成订单后可以获得10成长值;
+3、商品退换货,需扣除该商品所获得成长值;
+4、订单取消,需勾出该订单所获得成长值;
+5、因作弊等行为产生的成长值,爱鲜蜂有权扣除相应成长值;</string>
+	</dict>
+</array>
+</plist>

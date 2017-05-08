@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>index</key>
+		<string>0</string>
+		<key>name</key>
+		<string>爱鲜蜂龙乡店（吉利发超市）</string>
+		<key>time</key>
+		<string>营业时间：9:00--22:00</string>
+		<key>address</key>
+		<string>昌平区龙乡东区10号楼对面</string>
+		<key>distance</key>
+		<real>0.29</real>
+		<key>select</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>index</key>
+		<string>1</string>
+		<key>name</key>
+		<string>爱鲜蜂上奥世纪店（世纪联华）</string>
+		<key>time</key>
+		<string>营业时间：9:00--23:00</string>
+		<key>address</key>
+		<string>北京市昌平区回龙观镇建材城西路87号院3号楼1层101号</string>
+		<key>distance</key>
+		<real>0.5</real>
+		<key>select</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>index</key>
+		<string>2</string>
+		<key>name</key>
+		<string>爱鲜蜂水利宿舍店（世纪联华超市）</string>
+		<key>time</key>
+		<string>营业时间：9:00--22:00</string>
+		<key>address</key>
+		<string>北京市海淀区安宁庄后街16号水利属蛇底商</string>
+		<key>distance</key>
+		<real>1.1</real>
+		<key>select</key>
+		<true/>
+	</dict>
+</array>
+</plist>

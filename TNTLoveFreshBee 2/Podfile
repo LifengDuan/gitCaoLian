@@ -1,0 +1,13 @@
+platform :ios, ‘8.0’
+
+target 'TNTLoveFreshBee' do
+
+pod ‘MJExtension’
+pod ‘Masonry’
+pod ‘SVProgressHUD’
+pod ‘SDWebImage’
+pod ‘YYModel’
+pod ‘AFNetworking’
+pod ‘MJRefresh’
+
+end

@@ -1,0 +1,78 @@
+//
+//  PrefixHeader.pch
+//  TNTLoveFreshBee
+//
+//  Created by 李丹 on 16/10/11.
+//  Copyright © 2016年 LiDan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define HMHeight 185
+
+#import "Masonry.h"
+#import "SVProgressHUD.h"
+//#import "MBProgressHUD.h"
+#import "MJExtension.h"
+#import "AppConst.h"
+#import "UIImageView+WebCache.h"
+#import "AnimationRefreshHeader.h"
+
+
+typedef NS_ENUM(NSInteger ,HeadViewItemType){
+    HeadViewItemTypePage,
+    HeadViewItemTypeHot,
+    HeadViewItemTypeHeadLine,
+    HeadViewItemTypeBrand,
+    HeadViewItemTypeScene
+};
+typedef void (^CompleteBlock)(id data,NSError *error);
+typedef void(^ClikedCallback) (HeadViewItemType type,NSInteger tag);
+
+//#define goodsIcon @property (nonatomic, strong) UIImageView *goodsIcon
+
+#pragma mark - 勿动 - 
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+#define Width  [[UIScreen mainScreen] bounds].size.width
+#define Height [[UIScreen mainScreen] bounds].size.height
+#define AJNotification   [NSNotificationCenter defaultCenter]
+#define GrayColor [UIColor colorWithRed:239/255.0 green:239/255.0 blue:239/255.0 alpha:1]
+#define GrayColor [UIColor colorWithRed:239/255.0 green:239/255.0 blue:239/255.0 alpha:1]
+#define GeneralColor [UIColor colorWithRed:0.992 green:0.831 blue:0.192 alpha:1.000]
+
+//宏定义
+#define HM_NAME @"HM_NAME"//联系人姓名
+
+#define HM_PHONENUM @"HM_PHONENUM"//电话
+#ifdef DEBUG
+
+#define HMLog(...) NSLog(__VA_ARGS__) // 替换系统的打印
+
+#else
+
+#define HMLog(...)        // 如果是发布版本,保证不报错
+
+#endif
+
+
+#endif /* PrefixHeader_pch */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
